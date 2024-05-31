@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48512ED02B9F7E5500CA04EA /* Radar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AB52BE2B94870D00102AF1 /* Radar.cpp */; };
+		48512ED22B9F7E5500CA04EA /* Lidar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AB52BA2B94870D00102AF1 /* Lidar.cpp */; };
+		48512ED32B9F7E5500CA04EA /* lidarTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AB52BD2B94870D00102AF1 /* lidarTest.cpp */; };
+		48512ED42B9F7E5500CA04EA /* lidarFusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48AB52BB2B94870D00102AF1 /* lidarFusion.cpp */; };
+		4856ACD42BC14F67005541C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856ACCE2BC14E2D005541C4 /* Foundation.framework */; };
+		4856ACD52BC14F77005541C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856ACD02BC14E3A005541C4 /* QuartzCore.framework */; };
+		4856ACD62BC14F7F005541C4 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856ACD22BC14E44005541C4 /* Metal.framework */; };
+		4856ACD82BC1505E005541C4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856ACD72BC1505E005541C4 /* IOKit.framework */; };
+		4856ACDA2BC15068005541C4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856ACD92BC15068005541C4 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48512ED62B9F7E5500CA04EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48512EDA2B9F7E5500CA04EA /* Lidar_macOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lidar_macOS; sourceTree = BUILT_PRODUCTS_DIR; };
+		4856ACCE2BC14E2D005541C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4856ACD02BC14E3A005541C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4856ACD22BC14E44005541C4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		4856ACD72BC1505E005541C4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		4856ACD92BC15068005541C4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		48AB52B82B94870D00102AF1 /* Binaries */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Binaries; path = LidarProject/Binaries; sourceTree = "<group>"; };
+		48AB52B92B94870D00102AF1 /* Lidar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Lidar.hpp; path = LidarProject/Lidar.hpp; sourceTree = "<group>"; };
+		48AB52BA2B94870D00102AF1 /* Lidar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lidar.cpp; path = LidarProject/Lidar.cpp; sourceTree = "<group>"; };
+		48AB52BB2B94870D00102AF1 /* lidarFusion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lidarFusion.cpp; path = LidarProject/lidarFusion.cpp; sourceTree = "<group>"; };
+		48AB52BC2B94870D00102AF1 /* Includes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Includes; path = LidarProject/Includes; sourceTree = "<group>"; };
+		48AB52BD2B94870D00102AF1 /* lidarTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lidarTest.cpp; path = LidarProject/lidarTest.cpp; sourceTree = "<group>"; };
+		48AB52BE2B94870D00102AF1 /* Radar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Radar.cpp; path = LidarProject/Radar.cpp; sourceTree = "<group>"; };
+		48AB52C02B94870D00102AF1 /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; name = build; path = LidarProject/build; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48512ED52B9F7E5500CA04EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4856ACDA2BC15068005541C4 /* CoreFoundation.framework in Frameworks */,
+				4856ACD82BC1505E005541C4 /* IOKit.framework in Frameworks */,
+				4856ACD42BC14F67005541C4 /* Foundation.framework in Frameworks */,
+				4856ACD52BC14F77005541C4 /* QuartzCore.framework in Frameworks */,
+				4856ACD62BC14F7F005541C4 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4856ACCD2BC14E2D005541C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4856ACD92BC15068005541C4 /* CoreFoundation.framework */,
+				4856ACD72BC1505E005541C4 /* IOKit.framework */,
+				4856ACD22BC14E44005541C4 /* Metal.framework */,
+				4856ACD02BC14E3A005541C4 /* QuartzCore.framework */,
+				4856ACCE2BC14E2D005541C4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48AE22CF2B9376F100AE8204 = {
+			isa = PBXGroup;
+			children = (
+				48AB52B82B94870D00102AF1 /* Binaries */,
+				48AB52C02B94870D00102AF1 /* build */,
+				48AB52BC2B94870D00102AF1 /* Includes */,
+				48AB52BA2B94870D00102AF1 /* Lidar.cpp */,
+				48AB52B92B94870D00102AF1 /* Lidar.hpp */,
+				48AB52BB2B94870D00102AF1 /* lidarFusion.cpp */,
+				48AB52BD2B94870D00102AF1 /* lidarTest.cpp */,
+				48AB52BE2B94870D00102AF1 /* Radar.cpp */,
+				48AE22D92B9376F100AE8204 /* Products */,
+				4856ACCD2BC14E2D005541C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48AE22D92B9376F100AE8204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48512EDA2B9F7E5500CA04EA /* Lidar_macOS */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48512ECE2B9F7E5500CA04EA /* Lidar_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48512ED72B9F7E5500CA04EA /* Build configuration list for PBXNativeTarget "Lidar_macOS" */;
+			buildPhases = (
+				48512ECF2B9F7E5500CA04EA /* Sources */,
+				48512ED52B9F7E5500CA04EA /* Frameworks */,
+				48512ED62B9F7E5500CA04EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lidar_macOS;
+			productName = OpenCV_Test;
+			productReference = 48512EDA2B9F7E5500CA04EA /* Lidar_macOS */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48AE22D02B9376F100AE8204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 48AE22D32B9376F100AE8204 /* Build configuration list for PBXProject "LidarProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48AE22CF2B9376F100AE8204;
+			productRefGroup = 48AE22D92B9376F100AE8204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48512ECE2B9F7E5500CA04EA /* Lidar_macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48512ECF2B9F7E5500CA04EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48512ED02B9F7E5500CA04EA /* Radar.cpp in Sources */,
+				48512ED22B9F7E5500CA04EA /* Lidar.cpp in Sources */,
+				48512ED32B9F7E5500CA04EA /* lidarTest.cpp in Sources */,
+				48512ED42B9F7E5500CA04EA /* lidarFusion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48512ED82B9F7E5500CA04EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/opencv/4.8.1_4/include/opencv4,
+					/opt/homebrew/Cellar/pcapplusplus/23.09/include/pcapplusplus,
+					/opt/homebrew/Cellar/boost/1.83.0/include,
+					/Users/alis/Documents/LidarProject/LidarProject/Includes,
+					"/Users/alis/Documents/Codes/LidarProject/LidarProject/Includes/metal-cpp",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/opt/opencv/lib,
+					/opt/homebrew/Cellar/pcapplusplus/23.09/lib,
+					/opt/homebrew/Cellar/boost/1.83.0/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_videostab",
+					"-lopencv_plot",
+					"-lopencv_text",
+					"-lopencv_datasets",
+					"-lopencv_highgui",
+					"-lopencv_rgbd",
+					"-lopencv_dnn",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_photo",
+					"-lopencv_xphoto",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_gapi",
+					"-lopencv_mcc",
+					"-lopencv_optflow",
+					"-lopencv_sfm",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_superres",
+					"-lopencv_hfs",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_fuzzy",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_saliency",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_wechat_qrcode",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lPacket++",
+					"-lPcap++",
+					"-lCommon++",
+					"-lpcap",
+					"-lpthread",
+					/Users/alis/Documents/Codes/LidarProject/LidarProject/Binaries/libKvaserCAN.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48512ED92B9F7E5500CA04EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/opencv/4.8.1_4/include/opencv4,
+					/opt/homebrew/Cellar/pcapplusplus/23.09/include/pcapplusplus,
+					/opt/homebrew/Cellar/boost/1.83.0/include,
+					/Users/alis/Documents/LidarProject/LidarProject/Includes,
+					"/Users/alis/Documents/Codes/LidarProject/LidarProject/Includes/metal-cpp",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/opt/opencv/lib,
+					/opt/homebrew/Cellar/pcapplusplus/23.09/lib,
+					/opt/homebrew/Cellar/boost/1.83.0/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_videostab",
+					"-lopencv_plot",
+					"-lopencv_text",
+					"-lopencv_datasets",
+					"-lopencv_highgui",
+					"-lopencv_rgbd",
+					"-lopencv_dnn",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_photo",
+					"-lopencv_xphoto",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_gapi",
+					"-lopencv_mcc",
+					"-lopencv_optflow",
+					"-lopencv_sfm",
+					"-lopencv_stitching",
+					"-lopencv_alphamat",
+					"-lopencv_superres",
+					"-lopencv_hfs",
+					"-lopencv_aruco",
+					"-lopencv_bgsegm",
+					"-lopencv_bioinspired",
+					"-lopencv_ccalib",
+					"-lopencv_dnn_objdetect",
+					"-lopencv_dnn_superres",
+					"-lopencv_dpm",
+					"-lopencv_face",
+					"-lopencv_freetype",
+					"-lopencv_img_hash",
+					"-lopencv_intensity_transform",
+					"-lopencv_fuzzy",
+					"-lopencv_line_descriptor",
+					"-lopencv_quality",
+					"-lopencv_rapid",
+					"-lopencv_reg",
+					"-lopencv_saliency",
+					"-lopencv_stereo",
+					"-lopencv_structured_light",
+					"-lopencv_phase_unwrapping",
+					"-lopencv_surface_matching",
+					"-lopencv_tracking",
+					"-lopencv_videoio",
+					"-lopencv_viz",
+					"-lopencv_wechat_qrcode",
+					"-lopencv_xfeatures2d",
+					"-lopencv_shape",
+					"-lopencv_ml",
+					"-lopencv_ximgproc",
+					"-lopencv_video",
+					"-lopencv_xobjdetect",
+					"-lopencv_objdetect",
+					"-lopencv_calib3d",
+					"-lPacket++",
+					"-lPcap++",
+					"-lCommon++",
+					"-lpcap",
+					"-lpthread",
+					/Users/alis/Documents/Codes/LidarProject/LidarProject/Binaries/libKvaserCAN.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48AE22DD2B9376F100AE8204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48AE22DE2B9376F100AE8204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48512ED72B9F7E5500CA04EA /* Build configuration list for PBXNativeTarget "Lidar_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48512ED82B9F7E5500CA04EA /* Debug */,
+				48512ED92B9F7E5500CA04EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AE22D32B9376F100AE8204 /* Build configuration list for PBXProject "LidarProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AE22DD2B9376F100AE8204 /* Debug */,
+				48AE22DE2B9376F100AE8204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48AE22D02B9376F100AE8204 /* Project object */;
+}

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="196" failures="3" disabled="30" errors="0" time="470.497" timestamp="2023-11-11T11:29:36.157" name="AllTests">
+  <testsuite name="SmokeTest" tests="6" failures="0" disabled="5" skipped="0" errors="0" time="78.207" timestamp="2023-11-11T11:29:36.158">
+    <testcase name="DISABLED_CheckGoogleTest" file="Testcases/TC00_SmokeTest.cc" line="57" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="SmokeTest" />
+    <testcase name="DISABLED_CheckTimer" file="Testcases/TC00_SmokeTest.cc" line="62" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="SmokeTest" />
+    <testcase name="DISABLED_CheckDataLengthCode" file="Testcases/TC00_SmokeTest.cc" line="87" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="SmokeTest" />
+    <testcase name="DISABLED_CheckTransmissionTime" file="Testcases/TC00_SmokeTest.cc" line="188" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="SmokeTest" />
+    <testcase name="DISABLED_SomeTest" file="Testcases/TC00_SmokeTest.cc" line="200" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="SmokeTest" />
+    <testcase name="DefaultScenario" file="Testcases/TC00_SmokeTest.cc" line="237" status="run" result="completed" time="78.207" timestamp="2023-11-11T11:29:36.158" classname="SmokeTest" />
+  </testsuite>
+  <testsuite name="ProbeChannel" tests="15" failures="0" disabled="1" skipped="0" errors="0" time="21.648" timestamp="2023-11-11T11:30:54.367">
+    <testcase name="SunnydayScenario" file="Testcases/TC01_ProbeChannel.cc" line="70" status="run" result="completed" time="1.447" timestamp="2023-11-11T11:30:54.367" classname="ProbeChannel" />
+    <testcase name="IfChannelNotOccupied" file="Testcases/TC01_ProbeChannel.cc" line="128" status="run" result="completed" time="1.389" timestamp="2023-11-11T11:30:55.815" classname="ProbeChannel" />
+    <testcase name="IfChannelOccupiedByOwnProcess" file="Testcases/TC01_ProbeChannel.cc" line="179" status="run" result="completed" time="1.323" timestamp="2023-11-11T11:30:57.205" classname="ProbeChannel" />
+    <testcase name="DISABLED_IfChannelOccupiedByAnotherProcess" file="Testcases/TC01_ProbeChannel.cc" line="231" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="ProbeChannel" />
+    <testcase name="WithValidChannelNo" file="Testcases/TC01_ProbeChannel.cc" line="240" status="run" result="completed" time="3.037" timestamp="2023-11-11T11:30:58.529" classname="ProbeChannel" />
+    <testcase name="WithInvalidChannelNo" file="Testcases/TC01_ProbeChannel.cc" line="306" status="run" result="completed" time="1.329" timestamp="2023-11-11T11:31:01.566" classname="ProbeChannel" />
+    <testcase name="CheckOperationModeCapabilities" file="Testcases/TC01_ProbeChannel.cc" line="366" status="run" result="completed" time="1.453" timestamp="2023-11-11T11:31:02.896" classname="ProbeChannel" />
+    <testcase name="CheckMonitorModeEnabledDisabled" file="Testcases/TC01_ProbeChannel.cc" line="435" status="run" result="completed" time="1.469" timestamp="2023-11-11T11:31:04.350" classname="ProbeChannel" />
+    <testcase name="CheckErrorFramesEnabledDisabled" file="Testcases/TC01_ProbeChannel.cc" line="507" status="run" result="completed" time="1.46" timestamp="2023-11-11T11:31:05.820" classname="ProbeChannel" />
+    <testcase name="CheckRemoteFramesDisabledEnabled" file="Testcases/TC01_ProbeChannel.cc" line="579" status="run" result="completed" time="1.454" timestamp="2023-11-11T11:31:07.281" classname="ProbeChannel" />
+    <testcase name="CheckExtendedFramesDisabledEnabled" file="Testcases/TC01_ProbeChannel.cc" line="651" status="run" result="completed" time="1.469" timestamp="2023-11-11T11:31:08.736" classname="ProbeChannel" />
+    <testcase name="CheckCanFdOperationEnabledDisabled" file="Testcases/TC01_ProbeChannel.cc" line="724" status="run" result="completed" time="1.464" timestamp="2023-11-11T11:31:10.205" classname="ProbeChannel" />
+    <testcase name="CheckBitrateSwitchingEnabledDisabled" file="Testcases/TC01_ProbeChannel.cc" line="796" status="run" result="completed" time="1.452" timestamp="2023-11-11T11:31:11.669" classname="ProbeChannel" />
+    <testcase name="CheckBitrateSwitchingEnabledWithoutCanFdEnabled" file="Testcases/TC01_ProbeChannel.cc" line="869" status="run" result="completed" time="1.449" timestamp="2023-11-11T11:31:13.121" classname="ProbeChannel" />
+    <testcase name="InAllChannelStates" file="Testcases/TC01_ProbeChannel.cc" line="940" status="run" result="completed" time="1.444" timestamp="2023-11-11T11:31:14.571" classname="ProbeChannel" />
+  </testsuite>
+  <testsuite name="InitializeChannel" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="12.317" timestamp="2023-11-11T11:31:16.016">
+    <testcase name="SunnydayScenario" file="Testcases/TC02_InitializeChannel.cc" line="70" status="run" result="completed" time="1.451" timestamp="2023-11-11T11:31:16.016" classname="InitializeChannel" />
+    <testcase name="IfChannelInitialized" file="Testcases/TC02_InitializeChannel.cc" line="129" status="run" result="completed" time="1.433" timestamp="2023-11-11T11:31:17.468" classname="InitializeChannel" />
+    <testcase name="IfControllerStarted" file="Testcases/TC02_InitializeChannel.cc" line="183" status="run" result="completed" time="1.437" timestamp="2023-11-11T11:31:18.902" classname="InitializeChannel" />
+    <testcase name="IfControllerStopped" file="Testcases/TC02_InitializeChannel.cc" line="237" status="run" result="completed" time="1.429" timestamp="2023-11-11T11:31:20.340" classname="InitializeChannel" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC02_InitializeChannel.cc" line="291" status="run" result="completed" time="1.496" timestamp="2023-11-11T11:31:21.770" classname="InitializeChannel" />
+    <testcase name="WithValidChannelNo" file="Testcases/TC02_InitializeChannel.cc" line="348" status="run" result="completed" time="1.465" timestamp="2023-11-11T11:31:23.266" classname="InitializeChannel" />
+    <testcase name="WithInvalidChannelNo" file="Testcases/TC02_InitializeChannel.cc" line="415" status="run" result="completed" time="1.319" timestamp="2023-11-11T11:31:24.732" classname="InitializeChannel" />
+    <testcase name="CheckOperationModeCapability" file="Testcases/TC02_InitializeChannel.cc" line="474" status="run" result="completed" time="0.758" timestamp="2023-11-11T11:31:26.051" classname="InitializeChannel" />
+    <testcase name="CheckMonitorModeEnabledDisabled" file="Testcases/TC02_InitializeChannel.cc" line="544" status="run" result="completed" time="0.241" timestamp="2023-11-11T11:31:26.810" classname="InitializeChannel" />
+    <testcase name="CheckErrorFramesEnabledDisabled" file="Testcases/TC02_InitializeChannel.cc" line="597" status="run" result="completed" time="0.243" timestamp="2023-11-11T11:31:27.051" classname="InitializeChannel" />
+    <testcase name="CheckRemoteFramesDisabledEnabled" file="Testcases/TC02_InitializeChannel.cc" line="651" status="run" result="completed" time="0.239" timestamp="2023-11-11T11:31:27.294" classname="InitializeChannel" />
+    <testcase name="CheckExtendedFramesDisabledEnabled" file="Testcases/TC02_InitializeChannel.cc" line="705" status="run" result="completed" time="0.24" timestamp="2023-11-11T11:31:27.534" classname="InitializeChannel" />
+    <testcase name="CheckCanFdOperationEnabledDisabled" file="Testcases/TC02_InitializeChannel.cc" line="760" status="run" result="completed" time="0.241" timestamp="2023-11-11T11:31:27.775" classname="InitializeChannel" />
+    <testcase name="CheckBitrateSwitchingEnabledDisabled" file="Testcases/TC02_InitializeChannel.cc" line="816" status="run" result="completed" time="0.243" timestamp="2023-11-11T11:31:28.017" classname="InitializeChannel" />
+    <testcase name="CheckBitrateSwitchingEnabledWithoutCanFdEnabled" file="Testcases/TC02_InitializeChannel.cc" line="872" status="run" result="completed" time="0.073" timestamp="2023-11-11T11:31:28.260" classname="InitializeChannel" />
+  </testsuite>
+  <testsuite name="StartController" tests="20" failures="0" disabled="2" skipped="0" errors="0" time="166.069" timestamp="2023-11-11T11:31:28.334">
+    <testcase name="SunnydayScenario" file="Testcases/TC03_StartController.cc" line="130" status="run" result="completed" time="1.454" timestamp="2023-11-11T11:31:28.334" classname="StartController" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC03_StartController.cc" line="197" status="run" result="completed" time="1.32" timestamp="2023-11-11T11:31:29.788" classname="StartController" />
+    <testcase name="IfControllerStarted" file="Testcases/TC03_StartController.cc" line="246" status="run" result="completed" time="1.436" timestamp="2023-11-11T11:31:31.109" classname="StartController" />
+    <testcase name="IfControllerStopped" file="Testcases/TC03_StartController.cc" line="300" status="run" result="completed" time="2.295" timestamp="2023-11-11T11:31:32.545" classname="StartController" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC03_StartController.cc" line="369" status="run" result="completed" time="1.319" timestamp="2023-11-11T11:31:34.840" classname="StartController" />
+    <testcase name="WithValidCanBitrateIndex" file="Testcases/TC03_StartController.cc" line="420" status="run" result="completed" time="24.57" timestamp="2023-11-11T11:31:36.160" classname="StartController" />
+    <testcase name="WithInvalidCanBitrateIndex" file="Testcases/TC03_StartController.cc" line="537" status="run" result="completed" time="2.803" timestamp="2023-11-11T11:32:00.731" classname="StartController" />
+    <testcase name="WithSameCanBitrateIndexAfterCanStopped" file="Testcases/TC03_StartController.cc" line="657" status="run" result="completed" time="13.34" timestamp="2023-11-11T11:32:03.535" classname="StartController" />
+    <testcase name="WithDifferentCanBitrateIndexAfterCanStopped" file="Testcases/TC03_StartController.cc" line="791" status="run" result="completed" time="13.315" timestamp="2023-11-11T11:32:16.875" classname="StartController" />
+    <testcase name="WithValidCanBitrateSettings" file="Testcases/TC03_StartController.cc" line="936" status="run" result="completed" time="16.034" timestamp="2023-11-11T11:32:30.191" classname="StartController" />
+    <testcase name="WithInvalidCanBitrateSettings" file="Testcases/TC03_StartController.cc" line="1036" status="run" result="completed" time="3.01" timestamp="2023-11-11T11:32:46.226" classname="StartController" />
+    <testcase name="WithSameCanBitrateSettingsAfterCanStopped" file="Testcases/TC03_StartController.cc" line="1161" status="run" result="completed" time="13.301" timestamp="2023-11-11T11:32:49.237" classname="StartController" />
+    <testcase name="WithDifferentCanBitrateSettingsAfterCanStopped" file="Testcases/TC03_StartController.cc" line="1288" status="run" result="completed" time="13.337" timestamp="2023-11-11T11:33:02.538" classname="StartController" />
+    <testcase name="WithValidCanFdBitrateSettings" file="Testcases/TC03_StartController.cc" line="1427" status="run" result="completed" time="10.965" timestamp="2023-11-11T11:33:15.876" classname="StartController" />
+    <testcase name="WithInvalidCanFdBitrateSettings" file="Testcases/TC03_StartController.cc" line="1526" status="run" result="completed" time="4.367" timestamp="2023-11-11T11:33:26.841" classname="StartController" />
+    <testcase name="WithSameCanFdBitrateSettingsAfterCanStopped" file="Testcases/TC03_StartController.cc" line="1687" status="run" result="completed" time="20.395" timestamp="2023-11-11T11:33:31.209" classname="StartController" />
+    <testcase name="WithDifferentCanFdBitrateSettingsAfterCanStopped" file="Testcases/TC03_StartController.cc" line="1828" status="run" result="completed" time="20.454" timestamp="2023-11-11T11:33:51.605" classname="StartController" />
+    <testcase name="WithCanBitrateIndexInCanFdMode" file="Testcases/TC03_StartController.cc" line="1990" status="run" result="completed" time="2.347" timestamp="2023-11-11T11:34:12.060" classname="StartController" />
+    <testcase name="DISABLED_WithCanBitrateSettingsInCanFdMode" file="Testcases/TC03_StartController.cc" line="2104" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="StartController" />
+    <testcase name="DISABLED_WithCanFdBitrateSettingsInCan20Mode" file="Testcases/TC03_StartController.cc" line="2216" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="StartController" />
+  </testsuite>
+  <testsuite name="ReadMessage" tests="17" failures="1" disabled="2" skipped="3" errors="0" time="50.903" timestamp="2023-11-11T11:34:14.408">
+    <testcase name="SunnydayScenario" file="Testcases/TC04_ReadMessage.cc" line="82" status="run" result="completed" time="1.646" timestamp="2023-11-11T11:34:14.408" classname="ReadMessage" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC04_ReadMessage.cc" line="195" status="run" result="completed" time="1.529" timestamp="2023-11-11T11:34:16.054" classname="ReadMessage" />
+    <testcase name="IfControllerNotStarted" file="Testcases/TC04_ReadMessage.cc" line="291" status="run" result="completed" time="1.525" timestamp="2023-11-11T11:34:17.584" classname="ReadMessage" />
+    <testcase name="IfControllerStopped" file="Testcases/TC04_ReadMessage.cc" line="387" status="run" result="completed" time="1.53" timestamp="2023-11-11T11:34:19.110" classname="ReadMessage" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC04_ReadMessage.cc" line="478" status="run" result="completed" time="1.525" timestamp="2023-11-11T11:34:20.640" classname="ReadMessage" />
+    <testcase name="IfReceiveQueueEmpty" file="Testcases/TC04_ReadMessage.cc" line="569" status="run" result="completed" time="1.979" timestamp="2023-11-11T11:34:22.166" classname="ReadMessage" />
+    <testcase name="IfReceiveQueueFull" file="Testcases/TC04_ReadMessage.cc" line="678" status="run" result="completed" time="28.942" timestamp="2023-11-11T11:34:24.145" classname="ReadMessage" />
+    <testcase name="DISABLED_IfMessageLost" file="Testcases/TC04_ReadMessage.cc" line="874" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="ReadMessage" />
+    <testcase name="DISABLED_MeasureTimestampAccuracy" file="Testcases/TC04_ReadMessage.cc" line="883" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="ReadMessage" />
+    <testcase name="WithFlagXtdInOperationModeXtd" file="Testcases/TC04_ReadMessage.cc" line="891" status="run" result="completed" time="1.546" timestamp="2023-11-11T11:34:53.088" classname="ReadMessage" />
+    <testcase name="WithFlagXtdInOperationModeNoXtd" file="Testcases/TC04_ReadMessage.cc" line="998" status="run" result="completed" time="1.896" timestamp="2023-11-11T11:34:54.635" classname="ReadMessage" />
+    <testcase name="WithFlagRtrInOperationModeRtr" file="Testcases/TC04_ReadMessage.cc" line="1113" status="run" result="skipped" time="0." timestamp="2023-11-11T11:34:56.532" classname="ReadMessage">
+      <skipped message="Testcases/TC04_ReadMessage.cc:1139&#x0A;This test cannot run in CAN FD operation mode!&#x0A;"><![CDATA[Testcases/TC04_ReadMessage.cc:1139
+This test cannot run in CAN FD operation mode!
+]]></skipped>
+    </testcase>
+    <testcase name="WithFlagRtrInOperationModeNoRtr" file="Testcases/TC04_ReadMessage.cc" line="1241" status="run" result="skipped" time="0." timestamp="2023-11-11T11:34:56.532" classname="ReadMessage">
+      <skipped message="Testcases/TC04_ReadMessage.cc:1267&#x0A;This test cannot run in CAN FD operation mode!&#x0A;"><![CDATA[Testcases/TC04_ReadMessage.cc:1267
+This test cannot run in CAN FD operation mode!
+]]></skipped>
+    </testcase>
+    <testcase name="WithFlagStsInOperationModeNoErr" file="Testcases/TC04_ReadMessage.cc" line="1373" status="run" result="completed" time="3.141" timestamp="2023-11-11T11:34:56.532" classname="ReadMessage" />
+    <testcase name="WithFlagStsInOperationModeErr" file="Testcases/TC04_ReadMessage.cc" line="1536" status="run" result="completed" time="2.956" timestamp="2023-11-11T11:34:59.673" classname="ReadMessage">
+      <failure message="Testcases/TC04_ReadMessage.cc:1660&#x0A;Value of: status.warning_level&#x0A;  Actual: false&#x0A;Expected: true&#x0A;" type=""><![CDATA[Testcases/TC04_ReadMessage.cc:1660
+Value of: status.warning_level
+  Actual: false
+Expected: true
+]]></failure>
+    </testcase>
+    <testcase name="InOperationModeListenOnly" file="Testcases/TC04_ReadMessage.cc" line="1720" status="run" result="skipped" time="0." timestamp="2023-11-11T11:35:02.630" classname="ReadMessage">
+      <skipped message="Testcases/TC04_ReadMessage.cc:1747&#x0A;This test can only run if there is a 3rd device present!&#x0A;"><![CDATA[Testcases/TC04_ReadMessage.cc:1747
+This test can only run if there is a 3rd device present!
+]]></skipped>
+    </testcase>
+    <testcase name="WithDifferentTimeoutValues" file="Testcases/TC04_ReadMessage.cc" line="1850" status="run" result="completed" time="2.682" timestamp="2023-11-11T11:35:02.630" classname="ReadMessage" />
+  </testsuite>
+  <testsuite name="WriteMessage" tests="19" failures="0" disabled="1" skipped="0" errors="0" time="37.713" timestamp="2023-11-11T11:35:05.312">
+    <testcase name="SunnydayScenario" file="Testcases/TC05_WriteMessage.cc" line="70" status="run" result="completed" time="1.672" timestamp="2023-11-11T11:35:05.312" classname="WriteMessage" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC05_WriteMessage.cc" line="183" status="run" result="completed" time="2.064" timestamp="2023-11-11T11:35:06.984" classname="WriteMessage" />
+    <testcase name="IfControllerNotStarted" file="Testcases/TC05_WriteMessage.cc" line="277" status="run" result="completed" time="2.069" timestamp="2023-11-11T11:35:09.050" classname="WriteMessage" />
+    <testcase name="IfControllerStopped" file="Testcases/TC05_WriteMessage.cc" line="371" status="run" result="completed" time="1.83" timestamp="2023-11-11T11:35:11.119" classname="WriteMessage" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC05_WriteMessage.cc" line="462" status="run" result="completed" time="1.807" timestamp="2023-11-11T11:35:12.950" classname="WriteMessage" />
+    <testcase name="WithValid11bitIdentifier" file="Testcases/TC05_WriteMessage.cc" line="553" status="run" result="completed" time="2.842" timestamp="2023-11-11T11:35:14.758" classname="WriteMessage" />
+    <testcase name="WithInvalid11bitIdentifier" file="Testcases/TC05_WriteMessage.cc" line="655" status="run" result="completed" time="5.168" timestamp="2023-11-11T11:35:17.600" classname="WriteMessage" />
+    <testcase name="WithValid29bitIdentifier" file="Testcases/TC05_WriteMessage.cc" line="866" status="run" result="completed" time="1.608" timestamp="2023-11-11T11:35:22.769" classname="WriteMessage" />
+    <testcase name="WithInvalid29bitIdentifier" file="Testcases/TC05_WriteMessage.cc" line="968" status="run" result="completed" time="2.051" timestamp="2023-11-11T11:35:24.377" classname="WriteMessage" />
+    <testcase name="WithValidDataLengthCode" file="Testcases/TC05_WriteMessage.cc" line="1071" status="run" result="completed" time="1.571" timestamp="2023-11-11T11:35:26.429" classname="WriteMessage" />
+    <testcase name="WithInvalidDataLengthCode" file="Testcases/TC05_WriteMessage.cc" line="1174" status="run" result="completed" time="2.082" timestamp="2023-11-11T11:35:28.000" classname="WriteMessage" />
+    <testcase name="WithFlagXtdInOperationModeNoXtd" file="Testcases/TC05_WriteMessage.cc" line="1354" status="run" result="completed" time="1.891" timestamp="2023-11-11T11:35:30.082" classname="WriteMessage" />
+    <testcase name="WithFlagRtrInOperationModeNoRtr" file="Testcases/TC05_WriteMessage.cc" line="1464" status="run" result="completed" time="1.907" timestamp="2023-11-11T11:35:31.974" classname="WriteMessage" />
+    <testcase name="WithFlagFdfInCan20OperationMode" file="Testcases/TC05_WriteMessage.cc" line="1575" status="run" result="completed" time="1.867" timestamp="2023-11-11T11:35:33.882" classname="WriteMessage" />
+    <testcase name="WithFlagBrsInCan20OperationMode" file="Testcases/TC05_WriteMessage.cc" line="1673" status="run" result="completed" time="1.85" timestamp="2023-11-11T11:35:35.750" classname="WriteMessage" />
+    <testcase name="WithFlagBrsWithoutFlagFdfInCanFdOperationMode" file="Testcases/TC05_WriteMessage.cc" line="1772" status="run" result="completed" time="1.974" timestamp="2023-11-11T11:35:37.601" classname="WriteMessage" />
+    <testcase name="WithFlagSts" file="Testcases/TC05_WriteMessage.cc" line="1877" status="run" result="completed" time="1.902" timestamp="2023-11-11T11:35:39.575" classname="WriteMessage" />
+    <testcase name="DISABLED_IfTransmitterBusy" file="Testcases/TC05_WriteMessage.cc" line="1989" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="WriteMessage" />
+    <testcase name="WithFlagEsi" file="Testcases/TC05_WriteMessage.cc" line="2115" status="run" result="completed" time="1.548" timestamp="2023-11-11T11:35:41.478" classname="WriteMessage" />
+  </testsuite>
+  <testsuite name="ResetController" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="10.639" timestamp="2023-11-11T11:35:43.026">
+    <testcase name="SunnydayScenario" file="Testcases/TC06_ResetController.cc" line="61" status="run" result="completed" time="1.489" timestamp="2023-11-11T11:35:43.026" classname="ResetController" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC06_ResetController.cc" line="124" status="run" result="completed" time="1.36" timestamp="2023-11-11T11:35:44.516" classname="ResetController" />
+    <testcase name="IfChannelInitialized" file="Testcases/TC06_ResetController.cc" line="173" status="run" result="completed" time="1.454" timestamp="2023-11-11T11:35:45.877" classname="ResetController" />
+    <testcase name="IfControllerStarted" file="Testcases/TC06_ResetController.cc" line="233" status="run" result="completed" time="1.799" timestamp="2023-11-11T11:35:47.331" classname="ResetController" />
+    <testcase name="IfControllerStopped" file="Testcases/TC06_ResetController.cc" line="294" status="run" result="completed" time="1.486" timestamp="2023-11-11T11:35:49.131" classname="ResetController" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC06_ResetController.cc" line="354" status="run" result="completed" time="1.382" timestamp="2023-11-11T11:35:50.617" classname="ResetController" />
+    <testcase name="CheckStatisticalCounters" file="Testcases/TC06_ResetController.cc" line="403" status="run" result="completed" time="1.665" timestamp="2023-11-11T11:35:52.000" classname="ResetController" />
+  </testsuite>
+  <testsuite name="TeardownChannel" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="6.251" timestamp="2023-11-11T11:35:53.666">
+    <testcase name="SunnydayScenario" file="Testcases/TC08_TeardownChannel.cc" line="61" status="run" result="completed" time="1.471" timestamp="2023-11-11T11:35:53.666" classname="TeardownChannel" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC08_TeardownChannel.cc" line="123" status="run" result="completed" time="1.377" timestamp="2023-11-11T11:35:55.138" classname="TeardownChannel" />
+    <testcase name="IfChannelInitialized" file="Testcases/TC08_TeardownChannel.cc" line="175" status="run" result="completed" time="0.177" timestamp="2023-11-11T11:35:56.515" classname="TeardownChannel" />
+    <testcase name="IfControllerStarted" file="Testcases/TC08_TeardownChannel.cc" line="201" status="run" result="completed" time="0.507" timestamp="2023-11-11T11:35:56.693" classname="TeardownChannel" />
+    <testcase name="IfControllerStopped" file="Testcases/TC08_TeardownChannel.cc" line="234" status="run" result="completed" time="1.364" timestamp="2023-11-11T11:35:57.201" classname="TeardownChannel" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC08_TeardownChannel.cc" line="283" status="run" result="completed" time="1.351" timestamp="2023-11-11T11:35:58.566" classname="TeardownChannel" />
+  </testsuite>
+  <testsuite name="GetStatus" tests="13" failures="2" disabled="8" skipped="0" errors="0" time="7.107" timestamp="2023-11-11T11:35:59.917">
+    <testcase name="SunnydayScenario" file="Testcases/TC09_GetStatus.cc" line="81" status="run" result="completed" time="1.491" timestamp="2023-11-11T11:35:59.917" classname="GetStatus" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC09_GetStatus.cc" line="148" status="run" result="completed" time="1.365" timestamp="2023-11-11T11:36:01.409" classname="GetStatus" />
+    <testcase name="DISABLED_IfChannelInitialized" file="Testcases/TC09_GetStatus.cc" line="198" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfControllerStarted" file="Testcases/TC09_GetStatus.cc" line="247" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfControllerStopped" file="Testcases/TC09_GetStatus.cc" line="296" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC09_GetStatus.cc" line="343" status="run" result="completed" time="1.349" timestamp="2023-11-11T11:36:02.774" classname="GetStatus" />
+    <testcase name="IfInBusOffState" file="Testcases/TC09_GetStatus.cc" line="391" status="run" result="completed" time="0." timestamp="2023-11-11T11:36:04.124" classname="GetStatus">
+      <failure message="Testcases/TC09_GetStatus.cc:415&#x0A;Value of: false&#x0A;  Actual: false&#x0A;Expected: true&#x0A;[  TC09.8  ] No bus-off state from device!&#x0A;" type=""><![CDATA[Testcases/TC09_GetStatus.cc:415
+Value of: false
+  Actual: false
+Expected: true
+[  TC09.8  ] No bus-off state from device!
+]]></failure>
+    </testcase>
+    <testcase name="IfWarningLevelReached" file="Testcases/TC09_GetStatus.cc" line="548" status="run" result="completed" time="2.9" timestamp="2023-11-11T11:36:04.124" classname="GetStatus">
+      <failure message="Testcases/TC09_GetStatus.cc:640&#x0A;Value of: status.warning_level&#x0A;  Actual: false&#x0A;Expected: true&#x0A;" type=""><![CDATA[Testcases/TC09_GetStatus.cc:640
+Value of: status.warning_level
+  Actual: false
+Expected: true
+]]></failure>
+    </testcase>
+    <testcase name="DISABLED_IfErrorsOnBus" file="Testcases/TC09_GetStatus.cc" line="705" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfTransmitterBusy" file="Testcases/TC09_GetStatus.cc" line="882" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfReceiveQueueEmpty" file="Testcases/TC09_GetStatus.cc" line="1009" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfMessageLost" file="Testcases/TC09_GetStatus.cc" line="1113" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+    <testcase name="DISABLED_IfReceiveQueueFull" file="Testcases/TC09_GetStatus.cc" line="1129" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="GetStatus" />
+  </testsuite>
+  <testsuite name="GetBitrate" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="36.15" timestamp="2023-11-11T11:36:07.025">
+    <testcase name="SunnydayScenario" file="Testcases/TC11_GetBitrate.cc" line="73" status="run" result="completed" time="1.499" timestamp="2023-11-11T11:36:07.025" classname="GetBitrate" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC11_GetBitrate.cc" line="163" status="run" result="completed" time="1.352" timestamp="2023-11-11T11:36:08.525" classname="GetBitrate" />
+    <testcase name="IfChannelInitialized" file="Testcases/TC11_GetBitrate.cc" line="218" status="run" result="completed" time="1.473" timestamp="2023-11-11T11:36:09.877" classname="GetBitrate" />
+    <testcase name="IfControllerStarted" file="Testcases/TC11_GetBitrate.cc" line="277" status="run" result="completed" time="1.473" timestamp="2023-11-11T11:36:11.351" classname="GetBitrate" />
+    <testcase name="IfControllerStopped" file="Testcases/TC11_GetBitrate.cc" line="337" status="run" result="completed" time="1.454" timestamp="2023-11-11T11:36:12.825" classname="GetBitrate" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC11_GetBitrate.cc" line="396" status="run" result="completed" time="1.351" timestamp="2023-11-11T11:36:14.280" classname="GetBitrate" />
+    <testcase name="WithVariousCanBitrateSettings" file="Testcases/TC11_GetBitrate.cc" line="450" status="run" result="completed" time="16.285" timestamp="2023-11-11T11:36:15.631" classname="GetBitrate" />
+    <testcase name="WithVariousCanFdBitrateSettings" file="Testcases/TC11_GetBitrate.cc" line="564" status="run" result="completed" time="11.259" timestamp="2023-11-11T11:36:31.917" classname="GetBitrate" />
+  </testsuite>
+  <testsuite name="GetProperty" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="13.447" timestamp="2023-11-11T11:36:43.176">
+    <testcase name="SunnydayScenario" file="Testcases/TC12_GetProperty.cc" line="61" status="run" result="completed" time="1.598" timestamp="2023-11-11T11:36:43.176" classname="GetProperty" />
+    <testcase name="WithNullPointerForValue" file="Testcases/TC12_GetProperty.cc" line="143" status="run" result="completed" time="1.459" timestamp="2023-11-11T11:36:44.775" classname="GetProperty" />
+    <testcase name="WithInvalidParmeterValue" file="Testcases/TC12_GetProperty.cc" line="215" status="run" result="completed" time="1.48" timestamp="2023-11-11T11:36:46.235" classname="GetProperty" />
+    <testcase name="WithWrongParameterSize" file="Testcases/TC12_GetProperty.cc" line="272" status="run" result="completed" time="1.46" timestamp="2023-11-11T11:36:47.716" classname="GetProperty" />
+    <testcase name="IfChannelNotInitialized" file="Testcases/TC12_GetProperty.cc" line="355" status="run" result="completed" time="1.356" timestamp="2023-11-11T11:36:49.176" classname="GetProperty" />
+    <testcase name="IfChannelInitialized" file="Testcases/TC12_GetProperty.cc" line="429" status="run" result="completed" time="1.583" timestamp="2023-11-11T11:36:50.533" classname="GetProperty" />
+    <testcase name="IfControllerStarted" file="Testcases/TC12_GetProperty.cc" line="499" status="run" result="completed" time="1.569" timestamp="2023-11-11T11:36:52.117" classname="GetProperty" />
+    <testcase name="IfControllerStopped" file="Testcases/TC12_GetProperty.cc" line="569" status="run" result="completed" time="1.565" timestamp="2023-11-11T11:36:53.687" classname="GetProperty" />
+    <testcase name="IfChannelTornDown" file="Testcases/TC12_GetProperty.cc" line="640" status="run" result="completed" time="1.372" timestamp="2023-11-11T11:36:55.252" classname="GetProperty" />
+  </testsuite>
+  <testsuite name="CallSequences" tests="35" failures="0" disabled="9" skipped="0" errors="0" time="30.03" timestamp="2023-11-11T11:36:56.624">
+    <testcase name="InitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="61" status="run" result="completed" time="0.185" timestamp="2023-11-11T11:36:56.624" classname="CallSequences" />
+    <testcase name="InitializeTeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="85" status="run" result="completed" time="0.355" timestamp="2023-11-11T11:36:56.810" classname="CallSequences" />
+    <testcase name="InitializeTeardownInitializeStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="117" status="run" result="completed" time="0.681" timestamp="2023-11-11T11:36:57.166" classname="CallSequences" />
+    <testcase name="InitializeTeardownInitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="153" status="run" result="completed" time="0.784" timestamp="2023-11-11T11:36:57.847" classname="CallSequences" />
+    <testcase name="InitializeTeardownInitializeStartResetStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="193" status="run" result="completed" time="1.111" timestamp="2023-11-11T11:36:58.631" classname="CallSequences" />
+    <testcase name="InitializeTeardownInitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="237" status="run" result="completed" time="1.204" timestamp="2023-11-11T11:36:59.742" classname="CallSequences" />
+    <testcase name="InitializeStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="285" status="run" result="completed" time="0.504" timestamp="2023-11-11T11:37:00.947" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="313" status="run" result="completed" time="0.608" timestamp="2023-11-11T11:37:01.452" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="345" status="run" result="completed" time="0.921" timestamp="2023-11-11T11:37:02.061" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="381" status="run" result="completed" time="1.044" timestamp="2023-11-11T11:37:02.982" classname="CallSequences" />
+    <testcase name="InitializeStartTeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="421" status="run" result="completed" time="0.675" timestamp="2023-11-11T11:37:04.027" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="457" status="run" result="completed" time="0.779" timestamp="2023-11-11T11:37:04.703" classname="CallSequences" />
+    <testcase name="InitializeStartTeardownInitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="497" status="run" result="completed" time="1.114" timestamp="2023-11-11T11:37:05.482" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardownInitializeStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="541" status="run" result="completed" time="1.106" timestamp="2023-11-11T11:37:06.597" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardownInitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="585" status="run" result="completed" time="1.206" timestamp="2023-11-11T11:37:07.703" classname="CallSequences" />
+    <testcase name="InitializeStartTeardownInitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="633" status="run" result="completed" time="1.527" timestamp="2023-11-11T11:37:08.909" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardownInitializeStartResetStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="685" status="run" result="completed" time="1.545" timestamp="2023-11-11T11:37:10.437" classname="CallSequences" />
+    <testcase name="InitializeStartResetTeardownInitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="737" status="run" result="completed" time="1.649" timestamp="2023-11-11T11:37:11.982" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartTeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="793" status="run" result="completed" time="1.103" timestamp="2023-11-11T11:37:13.631" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="837" status="run" result="completed" time="1.212" timestamp="2023-11-11T11:37:14.735" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartTeardownInitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="889" status="run" result="completed" time="1.534" timestamp="2023-11-11T11:37:15.947" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardownInitializeStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="941" status="run" result="completed" time="1.544" timestamp="2023-11-11T11:37:17.482" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardownInitializeStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="993" status="run" result="completed" time="1.627" timestamp="2023-11-11T11:37:19.026" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartTeardownInitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="1049" status="run" result="completed" time="1.969" timestamp="2023-11-11T11:37:20.654" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardownInitializeStartResetStartTeardown" file="Testcases/TCx1_CallSequences.cc" line="1109" status="run" result="completed" time="1.96" timestamp="2023-11-11T11:37:22.624" classname="CallSequences" />
+    <testcase name="InitializeStartResetStartResetTeardownInitializeStartResetStartResetTeardown" file="Testcases/TCx1_CallSequences.cc" line="1169" status="run" result="completed" time="2.07" timestamp="2023-11-11T11:37:24.585" classname="CallSequences" />
+    <testcase name="DISABLED_InitializeStartInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1235" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_InitializeStartResetInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1269" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_InitializeInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1307" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_InitializeTeardownTeardown" file="Testcases/TCx1_CallSequences.cc" line="1337" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_TeardownInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1366" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_StartInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1395" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_ResetInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1424" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_WriteInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1453" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+    <testcase name="DISABLED_ReadInitializeTeardown" file="Testcases/TCx1_CallSequences.cc" line="1483" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="CallSequences" />
+  </testsuite>
+  <testsuite name="BitrateConverter" tests="26" failures="0" disabled="2" skipped="0" errors="0" time="0.01" timestamp="2023-11-11T11:37:26.655">
+    <testcase name="BitrateToSpeedWithValidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="210" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.655" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithInvalidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="249" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithValidCan20Values" file="Testcases/TCx2_BitrateConverter.cc" line="299" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithInvalidCanValues" file="Testcases/TCx2_BitrateConverter.cc" line="355" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithValidCanFdValues" file="Testcases/TCx2_BitrateConverter.cc" line="425" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithInvalidCanFdValues" file="Testcases/TCx2_BitrateConverter.cc" line="477" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="BitrateToSpeedWithDivisonByZero" file="Testcases/TCx2_BitrateConverter.cc" line="583" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="DISABLED_IndexToBitrateWithValidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="639" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="BitrateConverter" />
+    <testcase name="IndexToBitrateWithInvalidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="696" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="StringToBitrateFromCorrectStrings" file="Testcases/TCx2_BitrateConverter.cc" line="764" status="run" result="completed" time="0.002" timestamp="2023-11-11T11:37:26.656" classname="BitrateConverter" />
+    <testcase name="StringToBitrateFromValidStrings" file="Testcases/TCx2_BitrateConverter.cc" line="797" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.658" classname="BitrateConverter" />
+    <testcase name="StringToBitrateFromInvalidStrings" file="Testcases/TCx2_BitrateConverter.cc" line="835" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.659" classname="BitrateConverter" />
+    <testcase name="StringToBitrateFromWrongStrings" file="Testcases/TCx2_BitrateConverter.cc" line="873" status="run" result="completed" time="0.002" timestamp="2023-11-11T11:37:26.659" classname="BitrateConverter" />
+    <testcase name="StringToBitrateWithNullPointerForString" file="Testcases/TCx2_BitrateConverter.cc" line="908" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.662" classname="BitrateConverter" />
+    <testcase name="DISABLED_BitrateToStringFromValidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="933" status="notrun" result="suppressed" time="0." timestamp="1970-01-01T01:00:00.000" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromInvalidIndexes" file="Testcases/TCx2_BitrateConverter.cc" line="977" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.662" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromValidCanValues" file="Testcases/TCx2_BitrateConverter.cc" line="1015" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.662" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromInvalidCanValues" file="Testcases/TCx2_BitrateConverter.cc" line="1075" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.662" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromValidCanFdValuesBrsDisabled" file="Testcases/TCx2_BitrateConverter.cc" line="1149" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.663" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromInvalidCanFdValuesBrsDisabled" file="Testcases/TCx2_BitrateConverter.cc" line="1197" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.663" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromValidCanFdValuesBrsEnabled" file="Testcases/TCx2_BitrateConverter.cc" line="1286" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.663" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromInvalidCanFdValuesBrsEnabled" file="Testcases/TCx2_BitrateConverter.cc" line="1334" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.663" classname="BitrateConverter" />
+    <testcase name="BitrateToStringFromWellFormedStrings" file="Testcases/TCx2_BitrateConverter.cc" line="1458" status="run" result="completed" time="0.001" timestamp="2023-11-11T11:37:26.664" classname="BitrateConverter" />
+    <testcase name="BitrateToStringWithBufferSizeTooSmall" file="Testcases/TCx2_BitrateConverter.cc" line="1500" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.666" classname="BitrateConverter" />
+    <testcase name="BitrateToStringWithBufferSizeZero" file="Testcases/TCx2_BitrateConverter.cc" line="1529" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.666" classname="BitrateConverter" />
+    <testcase name="BitrateToStringWithNullPointerForString" file="Testcases/TCx2_BitrateConverter.cc" line="1550" status="run" result="completed" time="0." timestamp="2023-11-11T11:37:26.666" classname="BitrateConverter" />
+  </testsuite>
+</testsuites>
