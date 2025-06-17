@@ -13,4 +13,4 @@ This project thesis describes the creation of a Sensor class in C++ for unifying
 - Network PCAP files (from Wireshark, etc.).
 
 ### Class structure: 
-![UML Class Diagram of the system]([./Pictures/UML Class Diagram of the system.png](https://github.com/obi-two-kenobi/Extending-LiDAR-Point-Clouds-with-Radial-Speed-based-on-Radar-Data/blob/main/Pictures/UML%20Class%20diagram%20of%20drivers%20implementing%20the%20sensor%20parent%20class.png))
+![Alt text](https://github.com/obi-two-kenobi/Extending-LiDAR-Point-Clouds-with-Radial-Speed-based-on-Radar-Data/blob/main/Pictures/UML%20Class%20diagram%20of%20drivers%20implementing%20the%20sensor%20parent%20class.png)
