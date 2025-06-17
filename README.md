@@ -1,5 +1,5 @@
 # Project thesis: Extending LiDAR Point Clouds with Radial Speed based on Radar Data.
-This project thesis describes the creation of a Sensor class in C++ for unifying different sensor measurements into one point cloud.
+This project thesis describes the creation of a Sensor class in C++ for unifying different sensor measurements into one point cloud. [Thesis can be found here](https://github.com/obi-two-kenobi/Extending-LiDAR-Point-Clouds-with-Radial-Speed-based-on-Radar-Data/blob/main/Project%20Thesis.pdf)
 
 ## Supported hardware:
 -	Hesai’s Pandar XT32, a 32-channel medium-range 360-degree LiDAR,
